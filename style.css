@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:rgb(4, 97, 92);
+    color:rgb(180, 252, 222);
+    align-items: center;
+    height: 80px;
+}
+.The-logo{
+    width:160px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item{
+    margin-right: 40px;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-item:hover{
+    color: rgb(255, 255, 255);
+}
+.banner-image{
+    width: 600px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("Images/solid-concrete-wall-textured-backdrop.jpg");
+    background-size: cover;
+    color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-sec-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    color: rgb(4, 97, 92);
+}
+.title{
+    font-size: 55px;
+}
+.detail-text{
+    font-size: 18px;
+    margin: 15px 0px;
+
+}
+.btn{
+    padding: 10px;
+    background-color:rgb(4, 97, 92);
+    color:rgb(180, 252, 222);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px rgb(4, 97, 92);
+    color: aliceblue;
+}
+.about-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(4, 97, 92);
+}
+.service-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 30px;
+    font-size: 40px;
+    color:rgb(180, 252, 222);
+    
+
+}
+.service-section{
+    background-color:rgb(4, 97, 92);
+
+}
+.dig-arts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service{
+    position: relative;
+    background-color:rgb(180, 252, 222); 
+    color: rgb(4, 97, 92);
+    height: 470px;
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 1px rgb(180, 252, 222);
+}
+.icon{
+    width:100px;
+    margin-top: 10px;
+}
+.service-text{
+    padding: 15px;
+}
+.btns{
+    padding: 10px;
+    background-color:rgb(4, 97, 92);
+    color:rgb(180, 252, 222);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns:hover{
+    color: aliceblue;
+}
+footer{
+
+    background-color:rgb(0, 14, 13);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color:rgb(180, 252, 222);
+    align-items: center;
+}
+.foot{
+    margin: 20px 0px;
+
+}
+hr{
+    width:50%;
+    margin:0 auto;
+}
+.hp{
+    text-align: center;
+    color:aliceblue;
+    padding: 20px;
+}
